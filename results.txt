@@ -1,0 +1,54 @@
+Results from 1000 runs of each center.
+
+CPMC:
+      2 Transplanted in 2013
+      1 Transplanted in 2015
+      1 Transplanted in 2016
+      3 Transplanted in 2017
+    451 Transplanted in 2018
+    304 Transplanted in 2019
+    109 Transplanted in 2020
+     74 Transplanted in 2021
+     35 Transplanted in 2022
+     14 Transplanted in 2023
+      5 Transplanted in 2024
+      1 Transplanted in 2025
+
+UCLA:
+      3 Transplanted in 2011
+      5 Transplanted in 2012
+      2 Transplanted in 2013
+      5 Transplanted in 2014
+      2 Transplanted in 2015
+      2 Transplanted in 2016
+      5 Transplanted in 2017
+    104 Transplanted in 2018
+    511 Transplanted in 2019
+    177 Transplanted in 2020
+     73 Transplanted in 2021
+     45 Transplanted in 2022
+     21 Transplanted in 2023
+     28 Transplanted in 2024
+     11 Transplanted in 2025
+      6 Transplanted in 2026
+
+UCD:
+    145 Transplanted in 2015
+    266 Transplanted in 2016
+    171 Transplanted in 2017
+    132 Transplanted in 2018
+     96 Transplanted in 2019
+     57 Transplanted in 2020
+     51 Transplanted in 2021
+     15 Transplanted in 2022
+     18 Transplanted in 2023
+     15 Transplanted in 2024
+     10 Transplanted in 2025
+      9 Transplanted in 2026
+      2 Transplanted in 2027
+      5 Transplanted in 2028
+      1 Transplanted in 2029
+      4 Transplanted in 2030
+      1 Transplanted in 2031
+      1 Transplanted in 2032
+      1 Transplanted in 2033
