@@ -24,26 +24,32 @@ Statistics = collections.namedtuple('Statistics', ['initial_length',
 
 #CPMC
 statistics = {
-    'CPMC': {
-    #   year             len   add  dtx  ltx  rem
-        2014: Statistics(2047, 521, 141,  46, 431),
-        2013: Statistics(2127, 573, 112,  55, 486),
-        2012: Statistics(2177, 521, 143,  58, 370),
-        2011: Statistics(2316, 492, 123,  66, 442),
-        2010: Statistics(2311, 541, 109,  73, 349),
-        2009: Statistics(2135, 634, 114,  57, 287),
-        2008: Statistics(1975, 649, 111,  89, 284),
-        2007: Statistics(1728, 704, 130,  54, 272),
-        2006: Statistics(1611, 565, 129,  52, 267),
-        2005: Statistics(1533, 509, 115,  53, 254),
-        2004: Statistics(1475, 493, 107,  55, 273),
-        2003: Statistics(1387, 444, 104,  38, 206),
-        2002: Statistics(1312, 422, 102,  45, 200),
-        2001: Statistics(1196, 478, 102,  40, 219),
-        2000: Statistics(1048, 430,  78,  35, 169)
-    },
+    # 'CPMC': {
+    # #   year             len   add  dtx  ltx  rem
+    #     2014: Statistics(2047, 521, 141,  46, 431),
+    #     2013: Statistics(2127, 573, 112,  55, 486),
+    #     2012: Statistics(2177, 521, 143,  58, 370),
+    #     2011: Statistics(2316, 492, 123,  66, 442),
+    #     2010: Statistics(2311, 541, 109,  73, 349),
+    #     2009: Statistics(2135, 634, 114,  57, 287),
+    #     2008: Statistics(1975, 649, 111,  89, 284),
+    #     2007: Statistics(1728, 704, 130,  54, 272),
+    #     2006: Statistics(1611, 565, 129,  52, 267),
+    #     2005: Statistics(1533, 509, 115,  53, 254),
+    #     2004: Statistics(1475, 493, 107,  55, 273),
+    #     2003: Statistics(1387, 444, 104,  38, 206),
+    #     2002: Statistics(1312, 422, 102,  45, 200),
+    #     2001: Statistics(1196, 478, 102,  40, 219),
+    #     2000: Statistics(1048, 430,  78,  35, 169)
+    # },
     'UCLA': {
     #   year             len   add  dtx  ltx  rem
+      # # EXPERIMENTS WITH EXTRAPOLATION
+        # 2018: Statistics(2399, 845, 243, 152, 330),
+        # 2017: Statistics(2288, 782, 228, 143, 300),
+      # #
+        2016: Statistics(2259, 719, 213, 142, 335),
+        2015: Statistics(2193, 656, 198, 124, 268),
         2014: Statistics(2178, 574, 175, 126, 257),
         2013: Statistics(2172, 542, 166, 121, 249),
         2012: Statistics(2067, 615, 176, 107, 226),
@@ -61,28 +67,30 @@ statistics = {
         2000: Statistics( 964, 541, 154,  95,  58),
         1999: Statistics( 809, 452, 164,  52,  81)
     },
-    'UCD': {
-    #   year             len   add  dtx  ltx  rem
-        2014: Statistics(1066, 627, 257,  44, 8+40+25+30+4+47),
-        2013: Statistics( 995, 574, 290,  47, 7+29+29+56+2+43),
-        2012: Statistics(1045, 373, 222,  48, 12+32+32+41+1+35),
-        2011: Statistics( 944, 519, 208,  53, 7+30+35+5+0+80),
-        2010: Statistics( 846, 442, 126,  57, 9+27+35+3+0+87),
-        2009: Statistics( 809, 314,  95,  45, 13+29+37+3+0+55),
-        2008: Statistics( 714, 321,  79,  33, 9+21+28+5+0+51), 
-        2007: Statistics( 624, 303,  73,  58, 10+21+26+3+0+22),
-        2006: Statistics( 250, 511,  68,  23, 4+11+17+0+0+14),
-        2005: Statistics( 282, 145,  44,  32, 61+10+15+1+0+14),
-        2004: Statistics( 239, 150,  39,  20, 2+9+16+0+0+20),
-        2003: Statistics( 198, 148,  47,  10, 2+7+19+0+0+22),
-        2002: Statistics( 152, 116,  28,  10, 1+8+0+0+0+23),
-        2001: Statistics( 148,  69,  23,  14, 2+10+0+0+0+16),
-        2000: Statistics( 116,  97,  28,   9, 0+3+0+1+0+24),
-        1999: Statistics( 108,  68,  24,   2, 0+3+0+5+0+26)
-    }
+    # 'UCD': {
+    # #   year             len   add  dtx  ltx  rem
+    #     2014: Statistics(1066, 627, 257,  44, 8+40+25+30+4+47),
+    #     2013: Statistics( 995, 574, 290,  47, 7+29+29+56+2+43),
+    #     2012: Statistics(1045, 373, 222,  48, 12+32+32+41+1+35),
+    #     2011: Statistics( 944, 519, 208,  53, 7+30+35+5+0+80),
+    #     2010: Statistics( 846, 442, 126,  57, 9+27+35+3+0+87),
+    #     2009: Statistics( 809, 314,  95,  45, 13+29+37+3+0+55),
+    #     2008: Statistics( 714, 321,  79,  33, 9+21+28+5+0+51), 
+    #     2007: Statistics( 624, 303,  73,  58, 10+21+26+3+0+22),
+    #     2006: Statistics( 250, 511,  68,  23, 4+11+17+0+0+14),
+    #     2005: Statistics( 282, 145,  44,  32, 61+10+15+1+0+14),
+    #     2004: Statistics( 239, 150,  39,  20, 2+9+16+0+0+20),
+    #     2003: Statistics( 198, 148,  47,  10, 2+7+19+0+0+22),
+    #     2002: Statistics( 152, 116,  28,  10, 1+8+0+0+0+23),
+    #     2001: Statistics( 148,  69,  23,  14, 2+10+0+0+0+16),
+    #     2000: Statistics( 116,  97,  28,   9, 0+3+0+1+0+24),
+    #     1999: Statistics( 108,  68,  24,   2, 0+3+0+5+0+26)
+    # }
 }
 
 for center in statistics:
+    most_recent_year = max(statistics[center].keys())
+
     statistics[center]["avg"] = Statistics(
         sum(s[0] for s in statistics[center].values())/len(statistics[center]),
         sum(s[1] for s in statistics[center].values())/len(statistics[center]),
@@ -90,8 +98,11 @@ for center in statistics:
         sum(s[3] for s in statistics[center].values())/len(statistics[center]),
         sum(s[4] for s in statistics[center].values())/len(statistics[center])
     )
-    last_four = [statistics[center][2014], statistics[center][2013],
-                 statistics[center][2012], statistics[center][2011]]
+
+    last_four = [statistics[center][most_recent_year],
+                 statistics[center][most_recent_year-1],
+                 statistics[center][most_recent_year-2],
+                 statistics[center][most_recent_year-3]]
     statistics[center]["avg4"] = Statistics(
         sum(s[0] for s in last_four)/4,
         sum(s[1] for s in last_four)/4,
@@ -100,22 +111,32 @@ for center in statistics:
         sum(s[4] for s in last_four)/4
     )
 
+    last_two = [statistics[center][most_recent_year],
+                 statistics[center][most_recent_year-1]]
+    statistics[center]["avg2"] = Statistics(
+        sum(s[0] for s in last_two)/2,
+        sum(s[1] for s in last_two)/2,
+        sum(s[2] for s in last_two)/2,
+        sum(s[3] for s in last_two)/2,
+        sum(s[4] for s in last_two)/2
+    )
+
 # Possible modes:
 # transplant - simple printout of year tracked patient is transplanted
 # statistics - printout of median years on list and on dialysis for all patients,
 #              years waited and on dialysis for tracked patient
 # histogram - histogram of patients in each sorting year in the waiting list
 # results_histogram - histograms of years on the list and years on dialysis
-mode = ['transplant']
+mode = ['results_histogram']
 start_year = {
-    'CPMC': 2000,
-    'UCLA': 1999,
-    'UCD':  1999
+    #'CPMC': 2000,
+    'UCLA': min(statistics['UCLA'].keys()),
+    #'UCD':  1999
 }
 insert_year = {
-    'CPMC': 2012.0164,
+    #'CPMC': 2012.0164,
     'UCLA': 2011.600,
-    'UCD':  2015.8 # expected
+    #'UCD':  2015.8 # expected
 }
 dialysis_year = 2008.800
 change_year = {
@@ -123,7 +144,7 @@ change_year = {
     'UCLA': 2006,
     'UCD':  2015
 }
-end_year = 2050
+end_year = 2024
 
 acceptable_ratio = {
     'CPMC': 0.801,#0.390,
@@ -133,8 +154,8 @@ acceptable_ratio = {
 
 perfect_match_ratio = {
     'CPMC': 0.064*.8, #... why the .8? just experimenting, or...?
-    'UCLA': 0.114*.8,
-    'UCD':  0.054*.8
+    'UCLA': 0.114*.8, #... probably a fudge factor assuming 20% of perfect
+    'UCD':  0.054*.8  #    matches aren't given out of order
 }
 
 if len(sys.argv) < 2 or sys.argv[1] not in statistics:
@@ -143,6 +164,8 @@ if len(sys.argv) < 2 or sys.argv[1] not in statistics:
 center = sys.argv[1]
 
 current_year = start_year[center]
+year_increment = 1
+#year_increment = (1./12.)
 
 class Patient:
 
@@ -282,8 +305,8 @@ def check(action, year, candidates):
             years_on_dialysis.append(current_year-p.dialysis+1)
     if tracked_patient in candidates:
         if action == 'deceased_transplant':
-            if (not (int(tracked_patient.key()) == current_year and
-                random.uniform(0,1) < (tracked_patient.key() - current_year)) and
+            if (not (int(tracked_patient.key()) == int(current_year) and
+                random.uniform(0,1) < (tracked_patient.key() - int(current_year))) and
                 random.uniform(0,1) < acceptable_ratio[center]):
                     done(action, year)
             else:
@@ -336,23 +359,33 @@ init()
 
 #print_list()
 while current_year < end_year:
-    current_year += 1
+    current_year += year_increment
 
     try:
-        new_listings = statistics[center][current_year].additions
-        deceased_transplants = statistics[center][current_year].deceased_transplants
-        living_transplants = statistics[center][current_year].living_transplants
-        removed = statistics[center][current_year].removals
+        new_listings = statistics[center][int(current_year)].additions / year_increment
+        deceased_transplants = statistics[center][int(current_year)].deceased_transplants / year_increment
+        living_transplants = statistics[center][int(current_year)].living_transplants / year_increment / year_increment
+        removed = statistics[center][int(current_year)].removals / year_increment
     except KeyError:
         new_listings = statistics[center]["avg4"].additions
         deceased_transplants = statistics[center]["avg4"].deceased_transplants
         living_transplants = statistics[center]["avg4"].living_transplants
         removed = statistics[center]["avg4"].removals
+    # except KeyError:
+    #     new_listings = statistics[center]["avg2"].additions / year_increment
+    #     deceased_transplants = statistics[center]["avg2"].deceased_transplants / year_increment
+    #     living_transplants = statistics[center]["avg2"].living_transplants / year_increment
+    #     removed = statistics[center]["avg2"].removals / year_increment
 
-    try:
-        target_length = statistics[center][current_year+1].initial_length
-    except KeyError:
-        target_length = None
+    new_listings = int(round(new_listings))
+    deceased_transplants = int(round(deceased_transplants))
+    living_transplants = int(round(living_transplants))
+    removed = int(round(removed))
+
+    #try:
+    #    target_length = statistics[center][int(current_year+year_increment+.001)+1].initial_length
+    #except KeyError:
+    target_length = None
 
 
     #print current_year, len(waiting_list), new_listings, deceased_transplants, living_transplants, removed
@@ -363,7 +396,7 @@ while current_year < end_year:
         living_transplants = 5
         removed = 33
 
-    if current_year == int(insert_year[center]):
+    if int(insert_year[center])-.001 < current_year < int(insert_year[center])+.001:
         bisect.insort(waiting_list, tracked_patient)
         #print "Inserting patient at %d/%d in %d" % (waiting_list.index(tracked_patient), len(waiting_list), current_year)
         #print_list()
@@ -372,7 +405,7 @@ while current_year < end_year:
         year = current_year+random.uniform(0,1)
         bisect.insort(waiting_list, Patient(year, year-dialysis_dist()))
 
-    if current_year == change_year[center]:
+    if change_year[center]-.001 < current_year < change_year[center]+.001:
         #print "Sorting by dialysis year"
         #if current_year >= insert_year[center]:
         #    old_i = waiting_list.index(tracked_patient)
@@ -405,7 +438,9 @@ while current_year < end_year:
         print_list()
 
 try:
-    print "Still on list in", current_year, ",", waiting_list.index(tracked_patient), "of", len(waiting_list)
+    print "Still on list in", current_year
+    if DEBUG:
+        print "  ", waiting_list.index(tracked_patient), "of", len(waiting_list)
 except ValueError:
     print len(waiting_list)
     print waiting_list[0], waiting_list[len(waiting_list)-1]
