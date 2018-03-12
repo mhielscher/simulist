@@ -1,0 +1,44 @@
+      1 Still on list in 2024 , 3199 of 3204
+      1 Still on list in 2024 , 3200 of 3204
+      4 Still on list in 2024 , 3201 of 3204
+      1 Still on list in 2024 , 3201 of 3205
+      2 Still on list in 2024 , 3202 of 3204
+      2 Still on list in 2024 , 3202 of 3205
+      3 Still on list in 2024 , 3203 of 3204
+      2 Still on list in 2024 , 3203 of 3205
+      2 Still on list in 2024 , 3203 of 3206
+      7 Still on list in 2024 , 3204 of 3205
+      1 Still on list in 2024 , 3204 of 3206
+      1 Still on list in 2024 , 3204 of 3207
+      2 Still on list in 2024 , 3205 of 3206
+      3 Still on list in 2024 , 3205 of 3207
+      1 Still on list in 2024 , 3205 of 3208
+      1 Still on list in 2024 , 3206 of 3207
+      1 Still on list in 2024 , 3206 of 3209
+      8 Transplanted in 2011
+      8 Transplanted in 2012
+      6 Transplanted in 2013
+      4 Transplanted in 2014
+      2 Transplanted in 2015
+      3 Transplanted in 2016
+     78 Transplanted in 2017
+    587 Transplanted in 2018
+    126 Transplanted in 2019
+     64 Transplanted in 2020
+     37 Transplanted in 2021
+     19 Transplanted in 2022
+      8 Transplanted in 2023
+     15 Transplanted in 2024
+
+
+Interpreted:
+  8.0% - 2017
+ 60.6% - 2018
+ 13.0% - 2019
+  6.6% - 2020
+  3.8% - 2021
+  2.0% - 2022
+  0.8% - 2023
+  1.5% - 2024
+  3.6% - beyond
+

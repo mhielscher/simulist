@@ -1,0 +1,45 @@
+$ ./parallel UCLA 1000
+# Run 7/26/2017
+# Uses a hand-fudged extrapolation for 2017 only
+
+# Raw results:
+      1 Still on list in 2024 , 2881 of 2887
+      2 Still on list in 2024 , 2882 of 2886
+      1 Still on list in 2024 , 2883 of 2886
+      3 Still on list in 2024 , 2883 of 2887
+      8 Still on list in 2024 , 2884 of 2886
+      5 Still on list in 2024 , 2884 of 2887
+      1 Still on list in 2024 , 2884 of 2888
+     10 Still on list in 2024 , 2885 of 2886
+     10 Still on list in 2024 , 2885 of 2887
+      1 Still on list in 2024 , 2885 of 2889
+      3 Still on list in 2024 , 2886 of 2887
+      2 Still on list in 2024 , 2886 of 2888
+      2 Still on list in 2024 , 2887 of 2888
+      1 Still on list in 2024 , 2887 of 2889
+      4 Transplanted in 2011
+      4 Transplanted in 2012
+      5 Transplanted in 2013
+      1 Transplanted in 2014
+      1 Transplanted in 2015
+      2 Transplanted in 2016
+     79 Transplanted in 2017
+    533 Transplanted in 2018
+    162 Transplanted in 2019
+     71 Transplanted in 2020
+     30 Transplanted in 2021
+     23 Transplanted in 2022
+     21 Transplanted in 2023
+     14 Transplanted in 2024
+
+# Culled, normalized results:
+   4.2% Transplanted in 2017 (Aug-Dec)
+  56.5% Transplanted in 2018
+  17.2% Transplanted in 2019
+   7.5% Transplanted in 2020
+   3.2% Transplanted in 2021
+   2.4% Transplanted in 2022
+   2.2% Transplanted in 2023
+   1.5% Transplanted in 2024
+   ---
+   5.3% Still waiting after 2024 (in top 10 on list)

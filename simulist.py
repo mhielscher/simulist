@@ -45,8 +45,8 @@ statistics = {
     'UCLA': {
     #   year             len   add  dtx  ltx  rem
       # # EXPERIMENTS WITH EXTRAPOLATION
-        # 2018: Statistics(2399, 845, 243, 152, 330),
-        # 2017: Statistics(2288, 782, 228, 143, 300),
+        2018: Statistics(2399, 845, 243, 152, 330),
+        2017: Statistics(2288, 782, 228, 143, 300),
       # #
         2016: Statistics(2259, 719, 213, 142, 335),
         2015: Statistics(2193, 656, 198, 124, 268),
@@ -127,7 +127,7 @@ for center in statistics:
 #              years waited and on dialysis for tracked patient
 # histogram - histogram of patients in each sorting year in the waiting list
 # results_histogram - histograms of years on the list and years on dialysis
-mode = ['results_histogram']
+mode = ['transplant']
 start_year = {
     #'CPMC': 2000,
     'UCLA': min(statistics['UCLA'].keys()),

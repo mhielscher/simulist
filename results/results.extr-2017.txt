@@ -1,0 +1,43 @@
+      1 Still on list in 2024 , 2880 of 2886
+      1 Still on list in 2024 , 2881 of 2887
+      1 Still on list in 2024 , 2882 of 2886
+      1 Still on list in 2024 , 2882 of 2888
+      1 Still on list in 2024 , 2883 of 2886
+      3 Still on list in 2024 , 2884 of 2886
+      7 Still on list in 2024 , 2884 of 2887
+      1 Still on list in 2024 , 2884 of 2889
+      3 Still on list in 2024 , 2885 of 2886
+      7 Still on list in 2024 , 2885 of 2887
+      4 Still on list in 2024 , 2885 of 2888
+      3 Still on list in 2024 , 2886 of 2887
+      4 Still on list in 2024 , 2886 of 2888
+      1 Still on list in 2024 , 2887 of 2888
+      1 Still on list in 2024 , 2887 of 2889
+      1 Still on list in 2024 , 2888 of 2889
+      8 Transplanted in 2011
+      4 Transplanted in 2012
+      4 Transplanted in 2013
+      7 Transplanted in 2014
+      7 Transplanted in 2015
+      6 Transplanted in 2016
+     74 Transplanted in 2017
+    538 Transplanted in 2018
+    149 Transplanted in 2019
+     68 Transplanted in 2020
+     36 Transplanted in 2021
+     22 Transplanted in 2022
+     16 Transplanted in 2023
+     21 Transplanted in 2024
+
+
+Interpreted:
+  7.7% - 2017
+ 55.8% - 2018
+ 15.5% - 2019
+  7.1% - 2020
+  3.7% - 2021
+  2.3% - 2022
+  1.7% - 2023
+  2.2% - 2024
+  4.1% - beyond
+
